@@ -606,7 +606,7 @@ let puzzle_bagrules = [
 ]
 let result = document.querySelector(".result")
 
-// Set bagrules, so not passed to recursive function
+// Set bagrules, so not passed(repeatedly) to recursive function
 let bagrules = puzzle_bagrules
 
 const getTotalBagCount = (selectedBagColor) => {
@@ -627,4 +627,4 @@ const getTotalBagCount = (selectedBagColor) => {
   return totalBagCount
 }
 
-result.innerHTML = "2020 Question 7A - Total Bag Count for Shiny Gold Bag = " + getTotalBagCount("shiny gold")
+result.innerHTML = "2020 Question 7B - Total Bag Count for Shiny Gold Bag = " + getTotalBagCount("shiny gold")
