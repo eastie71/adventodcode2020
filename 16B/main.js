@@ -427,6 +427,9 @@ const getTicketDepartureValueAlternate = (valid_fields, tickets, myTicket) => {
     //   [7,8,9]
     // ])
     // console.log(tranposed)
+    // [1,4,7]
+    // [2,5,8]
+    // [3,6,9]
 
     const possibleColumns = []
     for (let colNum = 0; colNum < valueColumns.length; colNum++) {
